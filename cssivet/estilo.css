@@ -1,0 +1,76 @@
+
+
+body{
+    
+    background-image: url(https://img.freepik.com/foto-gratis/escuchandote-perro-joven-bulldog-frances-planteando-lindo-perrito-o-mascota-blanco-negro-jugueton-jugando-parece-feliz-aislado-sobre-fondo-blanco-concepto-movimiento-accion-movimiento_155003-34898.jpg?w=1060&t=st=1659052218~exp=1659052818~hmac=13afbcf2bc0eff10ee74f2c9263a7733cae1da4a4ac2182a90ea32fc57bca4a5);
+           background-repeat: 1000;
+    
+    
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+html{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+header{
+    font-size: 20px;
+    text-align: center;
+    border: 10px solid rgb(204, 59, 59);
+}
+
+
+li{
+    display: inline-block;
+    width: 15%;
+    position: relative;
+}
+
+ul{
+    text-align: center;
+}
+
+h3{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    position: relative;
+}
+
+ul{
+    text-align: center;
+    text-decoration: none;
+}
+
+footer{
+    border: 5px dashed rgb(92, 91, 170);
+    text-align: center;
+    
+
+
+header, footer{
+    background-color: rgb(255, 217, 223);
+}
+.logo{
+    float: left;
+    position: sticky;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows:repeat(2, 1fr);
+}
+
+.grilla{display: grid;}
+@media screen (min-width: 768px) {
+    #grilla { grid-template-colums: repeat(4, 1fr);
+    }
+}
