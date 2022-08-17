@@ -1,0 +1,72 @@
+
+
+
+    
+  body{background-image: url(https://img.freepik.com/foto-gratis/escuchandote-perro-joven-bulldog-frances-planteando-lindo-perrito-o-mascota-blanco-negro-jugueton-jugando-parece-feliz-aislado-sobre-fondo-blanco-concepto-movimiento-accion-movimiento_155003-34898.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-color: #faf5f5;}
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    
+    
+    
+    header{
+        font-size: 15px;
+        text-align: center;
+        border: 3px solid rgb(128, 102, 102);
+    }
+    #main-nav {
+        margin-top: 10px;
+        list-style-type: none;
+        padding-left: 0%;
+        display: grid;
+        justify-content: center;
+    }
+    
+    #main-nav li{
+    display: inline-block;
+    }
+    
+    #main-nav a {
+    color: white;
+    background-color: #a71a1a;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+    }
+    
+    footer{
+        background-color: #a16767;
+        padding: 0,5em 0;
+        text-align: center;
+        position: absolute;
+        bottom: 0%;
+        width: 100%;
+    }
+
+
+  .redes ul li .facebook:hover{
+    background: var(--facebook);
+  }
+  .redes ul li .instagram:hover{
+    background: var(--instagram);
+  } 
+  .redes ul li .gmail:hover{
+    background: var(--gmail);
+  }
+  .container{
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+
+.container:hover{
+    -webkit-transform: scale(1.3); 
+    -moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    transform: scale(1.3);
+}
